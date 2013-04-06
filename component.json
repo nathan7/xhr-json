@@ -1,0 +1,21 @@
+{
+  "name": "xhr-json",
+  "repo": "nathan7/xhr-json",
+  "description": "Promised JSON XHR.",
+  "version": "1.0.0",
+  "keywords": [
+    "promise",
+    "xhr",
+    "json"
+  ],
+  "dependencies": {
+    "nathan7/xhr": "*",
+    "timoxley/get": "*",
+    "component/json": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
