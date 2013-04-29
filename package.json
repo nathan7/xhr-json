@@ -21,5 +21,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nathan7/xhr-json/issues"
+  },
+  "browser": {
+    "json": false
   }
 }
