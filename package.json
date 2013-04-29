@@ -1,0 +1,25 @@
+{
+  "name": "xhr-json",
+  "version": "2.0.0",
+  "description": "Promised JSON XHR.",
+  "main": "node.js",
+  "dependencies": {
+    "jsonify": "~0.0.0",
+    "xhr": "git://github.com/nathan7/xhr"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathan7/xhr-json.git"
+  },
+  "keywords": [
+    "promise",
+    "xhr",
+    "json"
+  ],
+  "author": "Nathan Zadoks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathan7/xhr-json/issues"
+  }
+}
