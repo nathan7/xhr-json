@@ -2,7 +2,7 @@
   "name": "xhr-json",
   "repo": "nathan7/xhr-json",
   "description": "Promised JSON XHR.",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "keywords": [
     "promise",
     "xhr",
