@@ -13,8 +13,10 @@ function xhrJSON(url, options) {
   if (!options.headers)
     options.headers = {}
   options.headers['content-type'] = 'application/json'
-  if ('data' in options)
+  if ('data' in options) {
     options.data = Json.stringify(options.data)
+    options.headers['content-length'] = options.data.length
+  }
 
   return xhr(url, options).then(parse, parseErr)
   function parse(res) {
