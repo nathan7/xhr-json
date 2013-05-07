@@ -6,7 +6,7 @@ if (!Json) Json = require('json')
 module.exports = 
 function xhrJSON(url, options) {
   if (typeof url === 'object')
-    options = url, url = null
+    options = url, url = undefined 
   if (!options)
     options = {}
   if (!options.headers)
