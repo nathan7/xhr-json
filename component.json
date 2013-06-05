@@ -15,7 +15,6 @@
   "development": {},
   "license": "MIT",
   "scripts": [
-    "index.js",
-    "main.js"
+    "index.js"
   ]
 }
