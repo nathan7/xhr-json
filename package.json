@@ -1,6 +1,6 @@
 {
   "name": "xhr-json",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "Promised JSON XHR.",
   "main": "index.js",
   "dependencies": {
