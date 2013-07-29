@@ -13,7 +13,7 @@
 
 ## API
 
-### xhrJson(url)
+### xhrJson(url, options)
 ### xhrJson(options)
 
   Fetches the given URL (with the given options), parses the response as JSON, and returns that (as a promise).
