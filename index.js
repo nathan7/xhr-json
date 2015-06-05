@@ -15,7 +15,6 @@ function xhrJSON(url, options) {
   options.headers['content-type'] = 'application/json'
   if ('data' in options) {
     options.data = Json.stringify(options.data)
-    options.headers['content-length'] = options.data.length
   }
 
   return xhr(url, options).then(parse, parseErr)
